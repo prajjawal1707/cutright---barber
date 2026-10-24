@@ -16,15 +16,6 @@ npm install
 cp .env.example .env.local
 ```
 
-### 3. Set up Supabase
-1. Go to [supabase.com](https://supabase.com) → **New Project**
-2. Open **SQL Editor** → paste the full contents of `supabase/schema.sql` → **Run**
-3. Copy from **Project Settings → API**:
-   - `Project URL` → `NEXT_PUBLIC_SUPABASE_URL`
-   - `anon public` key → `NEXT_PUBLIC_SUPABASE_ANON_KEY`
-   - `service_role` key → `SUPABASE_SERVICE_ROLE_KEY`
-4. Enable **Phone auth** in Authentication → Providers → Phone
-
 ### 4. Fill in `.env.local`
 ```env
 NEXT_PUBLIC_SUPABASE_URL=https://xxxx.supabase.co
